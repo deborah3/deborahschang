@@ -1,0 +1,318 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  width: 100%;
+}
+.hero-left {
+  width: 300px
+}
+
+.hero-right {
+  margin-left: 80px;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    padding: 50px 0 0 0 !important;
+  }
+  .about-hed, .skills-hed, .contact-hed {
+    font-size: 48px !important;
+  }
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero-right {
+    margin: 0;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-left img {
+    height: 450px !important;
+  }
+  .about-hed {
+    top: 35% !important;
+    right: 25% !important;
+  }
+  .about-dek {
+    margin-top: 0;
+  }
+  .skills-content {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: translateY(-500px);
+    margin-bottom: -500px;
+  }
+  .skills-background img {
+    height: 500px !important;
+    text-align: center;
+  }
+  .skills-dek {
+    padding: 0 20px;
+  }
+  .skills-background {
+    width: 500px;
+  }
+  .contact-background {
+    width: 500px;
+  }
+  .contact-blob {
+    height: 500px !important;
+  }
+  .contact-content {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    transform: translateY(-425px);
+    margin-bottom: -500px;
+  }
+  .contact-hed {
+    margin-bottom: 20px;
+  }
+  .contact-dek {
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+  }
+  .contact-email {
+    font-size: 18px !important;
+    width: 250px !important;
+  }
+  .contact-icons {
+    transform: translate(200px, 250px);
+    left: 0 !important;
+    bottom: 0 !important;
+  }
+  .contact-copy {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about-hed, .skills-hed, .contact-hed {
+    font-size: 36px !important;
+  }
+  .hero-right img {
+    height: 300px !important;
+  }
+  .about-left img {
+    height: 300px !important;
+  }
+  .hero-dek, .hero-hed {
+    font-size: 36px !important;
+  }
+  .about-right {
+    margin: 0 !important;
+    box-sizing: border-box;
+    width: auto !important;
+    padding: 0 20px;
+  }
+  .about-dek, .about-sub {
+    font-size: 18px !important;
+  }
+  .about-hed {
+    top: 35% !important;
+    right: 25% !important;
+  }
+  .skills-background img {
+    height: 325px !important;
+  }
+  .skills-sub, .skills-dek {
+    font-size: 18px !important;
+  }
+  .skills-content {
+    transform: translateY(-325px);
+    margin-bottom: -300px;
+  }
+  .contact-blob {
+    height: 325px !important;
+  }
+  .contact-content {
+    transform: translateY(-300px);
+    margin-bottom: -400px;
+  }
+  .contact-email, .contact-dek {
+    font-size: 14px !important;
+  }
+  .contact-email {
+    padding: 10px 15px !important;
+    width: 190px !important;
+  }
+  .contact-icons {
+    transform: translate(100px, 250px);
+  }
+}
+.hero-right img {
+  height: 488px;
+  width: auto;
+}
+
+.hero-hed, .hero-dek {
+  font-size: 48px;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  letter-spacing: 1.3px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.about-left img {
+  height: 500px;
+  width: auto;
+}
+
+.about-left {
+  position: relative;
+}
+
+.about-right {
+  width: 350px;
+  margin: 0 80px 0 20px
+}
+
+.about-hed {
+  font-size: 64px;
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+  top: 30%;
+  right: -5%;
+}
+
+.about-dek, .about-sub {
+  font-size: 28px;
+  font-family: 'Karla', sans-serif;
+}
+
+.about-link {
+  color: black;
+  margin-right: 4px;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-background {
+  position: relative;
+}
+
+.skills-content {
+  position: absolute;
+  max-width: 800px;
+  text-align: center;
+  top: 20%;
+  left: 5%;
+}
+
+.skills-hed {
+  font-size: 64px;
+  font-family: 'Karla', sans-serif;
+}
+
+.skills-sub {
+  font-size: 28px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin: 32px 0 16px 0;
+}
+
+.skills-dek {
+  font-size: 28px;
+  font-family: 'Karla', sans-serif;
+  margin-top: 0;
+}
+
+.skills-background img {
+  height: 800px;
+  width: auto;
+}
+
+.contact-blob {
+  height: 800px;
+  width: auto;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-background {
+  position: relative;
+}
+
+.contact-content {
+  position: absolute;
+   max-width: 600px;
+  text-align: center;
+  top: 12%;
+  left: 20%;
+}
+
+.contact-hed {
+  font-size: 64px;
+  font-family: 'Karla', sans-serif;
+}
+
+.contact-dek {
+  font-size: 28px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.contact-email {
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  border-radius: 60px;
+  padding: 20px 25px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 330px;
+}
+
+.contact-email:hover {
+  background-color: #f2f2f2;
+}
+
+.contact-copy {
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+  margin-top: 32px;
+  display: none;
+}
+
+.contact-copy--active {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-icons {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+}
+
+.contact-img {
+  width: 38px;
+  height: 38px;
+  padding: 20px;
+}
